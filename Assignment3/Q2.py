@@ -3,7 +3,7 @@ import requests
 import os
 from dotenv import load_dotenv
 load_dotenv()
-api_key = "afc1bef3ac15f63d15b31765926b5512"
+api_key = "OpenWeather_Api_key"
 
 if "login" not in st.session_state:
     st.session_state.login = False
